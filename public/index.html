@@ -9,11 +9,28 @@
     <link rel="stylesheet" href="./build/tailwind.css">
 </head>
 <body class="bg-gray-100">
-    <div class="max-w-md mx-auto">
+    <div class="max-w-md mx-auto px-6 py-4">
         <div class="mt-10">
             <img class="mx-auto h-40 rounded-full shadow-lg" src="img/600px-Telegram_logo.svg.webp" alt="Telegram">
-            <h1 class="text-gray-600 text-4xl font-semibold text-center mt-4">Welcome to Telegram!</h1>
+            <h1 class="text-gray-600 text-4xl font-semibold text-center mt-6">Welcome to Telegram!</h1>
         </div>
+        <form action="#" class="mx-auto mt-14">
+
+            <div class="my-8">
+                <div class="flex items-center rounded bg-white border-b border-indigo-200">
+                    <label for="phone" class="w-20 text-right mr-8 text-gray-800">Name</label>
+                    <input type="phone" id="phone" name="name" placeholder="Chris Sev" class="flex-1 p-4 pl-0 placeholder-gray-700 outline-none text-gray-800">
+                </div>
+
+                <div class="flex items-center rounded bg-white border-b border-indigo-200 mt-10">
+                    <label for="phone" class="w-20 text-right mr-8 text-gray-800">Name</label>
+                    <input type="phone" id="phone" name="name" placeholder="Chris Sev" class="flex-1 p-4 pl-0 placeholder-gray-700 outline-none text-gray-800">
+                </div>
+            </div>
+
+            <button class="block w-full rounded bg-blue-400 py-3 text-white font-bold shadow">Submit</button>
+
+        </form>
     </div>
 </body>
 </html>
